@@ -123,11 +123,14 @@ switch (colr) {
 console.log("\n LOOPS");
 
 // for loop
+console.log("for loop");
+
 for (let i = -5; i <= 0; i++) {
   console.log(i);
 }
-
 // while and do while loop
+console.log("\n while and do while loop");
+
 let j = 1;
 while (j > 5) {
   console.log(j);
@@ -140,11 +143,18 @@ do {
 } while (j < 10);
 
 // for..of loop
+console.log("\n for..of loop");
+
 let arr1 = [10, 20, 30, 40];
 for (const num of arr1) {
   console.log(num);
 }
-
+// for loop for traversing string:
+console.log("\nfor loop for trversing string");
+const str_name = "Coder";
+for (let i = 0; i < str_name.length; i++) {
+  console.log(str_name.charAt(i));
+}
 //Functions
 console.log("\nFUNCTIONS");
 
