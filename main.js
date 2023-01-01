@@ -14,7 +14,7 @@ console.log(salary);
 // strings
 const name = "shagun";
 const lang = "javascript";
-const temp = `temp`;
+const temp = `temp`; // use this if using ${}
 // integer
 const tot = 1000;
 
